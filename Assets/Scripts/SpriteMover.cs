@@ -2,18 +2,18 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SpriteChanger : MonoBehaviour
+public class SpriteMover : MonoBehaviour
 {
-    public SpriteRenderer renderSprite;
+    public float moveSpeed = 0.1f;
     // Start is called before the first frame update
     void Start()
     {
-        renderSprite = gameObject.GetComponent<SpriteRenderer>();
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        transform.position += Vector3.up*moveSpeed*Time.deltaTime;
     }
 }
