@@ -209,7 +209,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 115603788}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.21, y: 3.97, z: -1.051635}
+  m_LocalPosition: {x: -6.43, y: 0.46, z: -1.051635}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -227,7 +227,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ff195af028126e45b6364b826b97fe7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 0.1
+  Speedyspeedboi: 1.5
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -351,6 +351,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1297051939}
   - component: {fileID: 1297051938}
+  - component: {fileID: 1297051940}
   m_Layer: 0
   m_Name: starShip
   m_TagString: Untagged
@@ -421,3 +422,16 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1297051940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1297051937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ff195af028126e45b6364b826b97fe7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speedyspeedboi: 1
